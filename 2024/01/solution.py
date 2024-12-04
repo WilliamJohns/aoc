@@ -18,7 +18,7 @@ def part_1(input_lines: list[str]) -> int:
 
 
 def part_2(input_lines: list[str]) -> int:
-    left: list[str] = []
+    left: list[int] = []
     right: dict[int, int] = defaultdict(int)
     for line in input_lines:
         l, r = map(int, line.split())

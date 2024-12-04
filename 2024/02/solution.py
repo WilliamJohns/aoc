@@ -21,7 +21,7 @@ def part_1(input_lines: list[str]) -> int:
     return safe_count
 
 
-def part_2(input_lines: list[str]) -> str:
+def part_2(input_lines: list[str]) -> int:
     safe_count = 0
     for line in input_lines:
         sequence = list(map(int, line.split()))
